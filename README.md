@@ -207,7 +207,7 @@ SLPR Coin is a Crypto security: an asset on a blockchain that, in addition, offe
     </details>
 <br>
 
-- <details>SLPRCoinCrowdsaleDeployer</Summary>
+- <details><summary>SLPRCoinCrowdsaleDeployer</Summary>
 
     - In this contract, The parameters for all of the features of our crowdsale, such as the `name`, `symbol`, `wallet` for fundraising, `goal`, Cap, rate, etc. are defined in the SLPRCoinSaleDeployer contract which instantiates SLPRCoinCrowdSale and SLPRCoin contracts by passing these parameters at the deployment time. 
 
