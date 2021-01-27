@@ -220,7 +220,38 @@ SLPR Coin is a Crypto security: an asset on a blockchain that, in addition, offe
 
 
 <details><summary> <b> Designing Algorithmic Trading </b></summary>
-Placeholder for Algotrading content
+
+<br>
+
+- <b>Strategies Explored</b>
+    - Machine Learning
+    - Simple Moving Average Crossover
+    - Momentum
+<br>
+
+- <b>Python Tools Utilized</b>
+    - Alpaca API for data acquisition
+    - NumPy & Pandas for data cleaning
+    - Oanda v20 API for trading
+    - TPQOA wrapper classes for logic
+    - The ZeroMQ Module for sockets
+    - Plotly Dash for visualization and dashboard implementation
+
+<br>
+
+- <b>Points of Interest</b>
+    -   The machine learning trader performed at 55% accuracy in sample and 53% accuracy out of sample on the ability to predict the direction of the price movement of the EUR/USD pair
+    - Transaction costs heavily affected portfolio performance, and further study into the development of a stronger model with better hyper-parameters is underway.
+
+<br>
+
+- <b>Problems & Solutions</b>
+    - Trying to code during closed markets
+        *Solution*: Create a fake ticker class, run it on a published socket and subscribe to it via test code. The fake ticker class would use a Euler discretization of geometric Brownian motion to simulate random price movements.
+    - Receiving socket messages and running code with the same file.
+        *Solution*: A combination of multithreading, multiprocessing, and asynchronous computing was researched. Solutions will be implemented and live in updated versions.
+
+
 </details>
 
 <br>
