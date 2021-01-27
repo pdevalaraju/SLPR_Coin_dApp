@@ -27,7 +27,7 @@
 
 <table><tr><td>
 
-<img src="public/workflow-1.PNG" width="100%" height="500"></img>
+<img src="public/workflow-1.png" width="100%" height="500"></img>
 
 </td><td width="600">
 
@@ -58,7 +58,7 @@
 
 </td><td>
 
-- ![marketOpportunity](public/market_opp.PNG)
+![marketOpportunity](public/market_opp.PNG)
 
 </td></tr></table>
 </details><br>
@@ -78,13 +78,13 @@ SLPR Coin is a Crypto security: an asset on a blockchain that, in addition, offe
 <details><summary>KYC Requirements</summary>
 
 - The SEC requires that a new customer provide detailed financial information that includes :
-    - name, 
-    - date of birth, 
+    - name
+    - date of birth 
     - identification numbers
-    - address, 
-    - employment status, 
-    - annual income, 
-    - net worth,
+    - address
+    - employment status 
+    - annual income
+    - net worth
     - investment objectives
 <br>
 
@@ -266,7 +266,7 @@ Placeholder for Algotrading content
     - Creating a user interface to interact with the smart contract
     - Using Javascript, HTML5 Document Object Model and W3 CSS, we have developed the Contract forms dynamically without having to create each of the form elements. For more information on DOM and CSS, please refer to https://w3schools.com. A snapshot of the user interface of our contract is given below:
 
-    - ![User Registration](public/registration.png)
+    - ![User Registration](public/registration.PNG)
 
     - deploying the contract to localtestnet
 
